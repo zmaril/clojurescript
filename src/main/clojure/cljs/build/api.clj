@@ -9,7 +9,7 @@
   "This is intended to be a stable api for those who intend to create
   tools that use compiler data.
 
-  For example: a build script may need to how to invalidate compiled
+  For example: a build script may need to know how to invalidate compiled
   files so that they will be recompiled."
   (:refer-clojure :exclude [compile])
   (:require [cljs.util :as util]
